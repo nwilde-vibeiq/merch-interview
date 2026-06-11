@@ -4,3 +4,4 @@ dist/
 
 # Interviewer-only material — never commit or share with candidates
 INTERVIEWER.md
+.idea/
