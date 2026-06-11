@@ -1,0 +1,30 @@
+{
+  "setupTasks": [
+    {
+      "name": "Install dependencies",
+      "command": "npm install"
+    }
+  ],
+  "tasks": {
+    "dev-mock": {
+      "name": "RetailPulse mock (port 4100)",
+      "command": "npm run dev:mock",
+      "runAtStart": true,
+      "preview": {
+        "port": 4100
+      }
+    },
+    "dev-app": {
+      "name": "Merch API (port 3000)",
+      "command": "npm run dev:app",
+      "runAtStart": true,
+      "preview": {
+        "port": 3000
+      }
+    },
+    "test": {
+      "name": "Run tests",
+      "command": "npm test"
+    }
+  }
+}

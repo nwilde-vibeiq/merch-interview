@@ -14,7 +14,9 @@ VENDOR_API.md       # RetailPulse API documentation
 
 ## Setup
 
-Requires Node 20+.
+**In CodeSandbox:** both servers start automatically (see the task panel — "RetailPulse mock" on port 4100, "Merch API" on port 3000). You can skip the commands below.
+
+**Locally:** requires Node 20+.
 
 ```bash
 npm install
