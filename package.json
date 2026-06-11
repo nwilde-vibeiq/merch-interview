@@ -1,0 +1,13 @@
+{
+  "name": "merch-interview",
+  "private": true,
+  "workspaces": [
+    "app",
+    "mock-retailpulse"
+  ],
+  "scripts": {
+    "dev:app": "npm run dev --workspace app",
+    "dev:mock": "npm run dev --workspace mock-retailpulse",
+    "test": "npm test --workspace app"
+  }
+}
